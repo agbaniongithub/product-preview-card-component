@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="/dist/output.css" rel="stylesheet">
+  <title>Product Component</title>
+</head>
+<body class='bg-cream lg:flex lg:justify-center lg:items-center lg:flex-col lg:h-screen'>
+  <main class="bg-white m-6 rounded-lg lg:flex lg:w-1/2 lg:min-h-[50%]">
+      <img class='object-fill w-full rounded-t-lg lg:rounded-none lg:rounded-l-lg lg:max-w-[50%]' src="./images/image-product-mobile.jpg"/>
+      <div class="p-6">
+        <span class="font-mont text-xs font-normal text-darkGrayishBlue tracking-wide">P E R F U M E</span>
+        <h1 class="my-4 text-3xl font-fr font-bold text-veryDarkBlue">Gabrielle Essence Eau De Parfum</h1>
+        <p class="font-mont text-sm text-darkGrayishBlue leading-6">
+          A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+          Perfumer-Creator for the House of CHANEL.
+        </p>
+        <div class="pt-5 flex gap-4 font-fr">
+          <div class="">
+            <span class="text-emerald-700 text-3xl">$149.99</span>
+          </div>
+          <div class="flex items-center">
+            <span class="text-xs text-darkGrayishBlue line-through">$169.99</span>
+          </div>
+        </div>
+        <button class="bg-emerald-700 flex gap-2 items-center justify-center px-14 py-3 mx-auto mt-6 w-full rounded-lg font-mont mb-5 hover:cursor-pointer">
+          <img src="./images/icon-cart.svg"/>
+          <span class="text-white text-sm">Add to Cart</span>
+        </button>
+      </div>
+
+    </main>
+    <!-- <div class="text-darkGrayishBlue text-xs flex justify-center">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="text-veryDarkBlue">&nbsp;Frontend Mentor</a>. 
+      Coded by <a href="#" class="text-veryDarkBlue">&nbsp;David Agbaniyaka</a>.
+    </div> -->
+</body>
+</html>
